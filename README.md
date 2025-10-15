@@ -9,7 +9,7 @@ Example:
 import aes_cls
 from aes_cls import sha256sum
 
-aes = ChipherAES(passwd='Долой Царя'.encode(), iterations=2018)
+aes = ChipherAES(passwd='Clear text'.encode(), iterations=2018)
 
 aes.encrypt('source.txt', 'source.enc')
 aes.decrypt('source.enc', 'decrypt.txt')
